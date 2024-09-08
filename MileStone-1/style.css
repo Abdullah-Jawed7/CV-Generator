@@ -1,0 +1,148 @@
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+img{
+    height: 154px;
+    width: 154px;
+    border-radius: 50%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.resume {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+}
+
+.resume h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section h3 {
+    border-bottom: 2px solid #5cb85c;
+    padding-bottom: 5px;
+    color: #5cb85c;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.resume-section-item {
+    margin-bottom: 20px;
+}
+
+.resume-section-item h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.resume-section-item p {
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #666;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #e7e7e7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 5px 0;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.skills li:hover {
+    background-color: #d6d6d6;
+}
+
+button.add-more {
+    background-color: #0275d8;
+    margin-top: 10px;
+}
+
+button.add-more:hover {
+    background-color: #025aa5;
+}
